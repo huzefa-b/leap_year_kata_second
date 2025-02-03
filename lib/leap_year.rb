@@ -1,5 +1,5 @@
 class LeapYear
   def leap_year?(year)
-    false
+    year % 4 == 0
   end
 end
